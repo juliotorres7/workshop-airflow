@@ -5,7 +5,7 @@ from datetime import datetime
 @dag(
         dag_id="minha_segunda_dag",
         description="minha etl braba",
-        schedule="* * * * *"
+        schedule="* * * * *",
         start_date=datetime(2025,12,13),
         catchup=False
 )
